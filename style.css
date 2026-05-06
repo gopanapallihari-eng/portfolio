@@ -1,18 +1,18 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    background: #f4f6f8;
+    background: #f5f7fa;
 }
 
 header {
-    background: #2c3e50;
+    background: #1f2937;
     color: white;
     text-align: center;
     padding: 30px;
 }
 
 section {
-    max-width: 800px;
+    max-width: 900px;
     margin: 20px auto;
     background: white;
     padding: 20px;
@@ -20,14 +20,21 @@ section {
 }
 
 h2 {
-    color: #2c3e50;
+    color: #1f2937;
 }
 
 .project {
+    border-left: 4px solid #3b82f6;
+    padding-left: 10px;
     margin-bottom: 15px;
 }
 
 a {
-    color: #3498db;
+    color: #2563eb;
     text-decoration: none;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: square;
 }
